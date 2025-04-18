@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = 'توکن_ربات_شما'
+TOKEN = '7973187320:AAHmr2V2W_GJTsDEnRuUYPl2vnGBpwdmH7M'
 bot = telebot.TeleBot(TOKEN)
 
 # فرمان /start
