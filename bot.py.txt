@@ -33,7 +33,7 @@ async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     await update.message.reply_text(msg)
 
-app = ApplicationBuilder().token("توکن رباتت رو اینجا بذار").build()
+app = ApplicationBuilder().token("7973187320:AAHmr2V2W_GJTsDEnRuUYPl2vnGBpwdmH7M").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("stats", stats_command))
 app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
