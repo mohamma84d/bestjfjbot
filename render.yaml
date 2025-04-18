@@ -3,5 +3,5 @@ services:
     name: telegram-bot
     env: python
     buildCommand: ""
-    startCommand: "bot.py"
+    startCommand: "python main.py"
     plan: free
